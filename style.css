@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    /* font-family: [Outfit](https://fonts.google.com/specimen/Outfit); */
+   font-style: normal;
+}
+
+.attribution { font-size: 11px; text-align: center; margin-top: 3rem;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+     .main-component{
+    margin-top: 2rem;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column; /* Ensures vertical alignment */
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 90%;
+    box-shadow: 0px 2px 14px 1px hsl(212, 45%, 89%);
+    border-radius: 15px;
+    
+} 
+
+
+
+.image-qr-code{border-radius: 15px; margin-top: 1rem;}
+
+.barCode-text h4{
+    margin-top: 18px;
+    padding: 4px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+.barCode-text p{
+    margin-top: 10px;
+    margin-bottom: 1rem !important;
+    padding: 4px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    color: #8692A6;
+    line-height: 17px;
+   
+   }
+
+/***********************************************
+MEDIA QUERY OF DIFFERENT SCREEN SIZE BEGINS HERE 
+************************************************/
+
+   @media screen and (max-width:768px){
+    .main-component { width: 30%; }
+    .barCode-text h4 {font-size: 14.5px;}
+    .barCode-text p {font-size: 10.3px; line-height: 14px;}
+    .barCode-text h4 { font-size: 16px; width: 120%; margin-left: -1rem;}
+    .barCode-text p {font-size: 12px; line-height: 15px; width: 120%; margin-left: -1rem;}
+
+}
+
+
+@media screen and (max-width: 480px) {
+ .main-component {width: 40%;}
+.barCode-text h4 { font-size: 13px; width: 120%; margin-left: -1rem;}
+
+.barCode-text p {font-size: 10px; line-height: 13px; width: 120%; margin-left: -1rem;}
+
+}
+
+   @media screen and (max-width:375px){
+    .barCode-text h4 {padding: 0px; font-size: 16px;}
+    .main-component {width: 60%;}
+    .barCode-text p {font-size: 11px; line-height: 15px; width: 120%; margin-left: -1rem;}
+}
+
+
+
+   
