@@ -77,6 +77,12 @@ MEDIA QUERY OF DIFFERENT SCREEN SIZE BEGINS HERE
 
 }
 
+@media screen and (max-width:717px){
+.barCode-text p {font-size: 11.7px;}
+
+}
+
+
 
 @media screen and (max-width: 480px) {
  .main-component {width: 40%;}
