@@ -56,10 +56,22 @@ body{
 MEDIA QUERY OF DIFFERENT SCREEN SIZE BEGINS HERE 
 ************************************************/
 
+@media screen and (max-width:1024px){
+    .main-component {width: 25%}
+    .barCode-text h4 {font-size: 16.7px;}
+    .barCode-text p {font-size: 12.1px;}
+}
+
+
+@media screen and (max-width:820px){
+    .main-component {width: 30%;}
+    .barCode-text h4 {font-size: 15px;     }
+    .barCode-text p {font-size: 12px; line-height: 15px; width: 120%; margin-left: -1.2rem;}
+}
+
+
    @media screen and (max-width:768px){
     .main-component { width: 30%; }
-    .barCode-text h4 {font-size: 14.5px;}
-    .barCode-text p {font-size: 10.3px; line-height: 14px;}
     .barCode-text h4 { font-size: 16px; width: 120%; margin-left: -1rem;}
     .barCode-text p {font-size: 12px; line-height: 15px; width: 120%; margin-left: -1rem;}
 
@@ -80,6 +92,11 @@ MEDIA QUERY OF DIFFERENT SCREEN SIZE BEGINS HERE
     .barCode-text p {font-size: 11px; line-height: 15px; width: 120%; margin-left: -1rem;}
 }
 
+@media screen and (max-width:280px){
+    .main-component {width: 65%;}
+    .barCode-text h4 {font-size: 13px; }
+    .barCode-text p {font-size: 10px; line-height: 11px; width: 144%; margin-left: -1.9rem;}
+}
 
 
    
