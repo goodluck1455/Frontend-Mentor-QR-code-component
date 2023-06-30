@@ -44,7 +44,7 @@ Working on this project provided me with valuable insights into utilizing media 
 `````htm
 
 /******************************
-      GOODLUCK STEPHEN
+    BY GOODLUCK STEPHEN
 ********************************/
 
 ````
